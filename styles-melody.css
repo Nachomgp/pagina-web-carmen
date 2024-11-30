@@ -1,0 +1,66 @@
+.card {
+    background-color: #f8f9fa;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(201, 137, 0);
+}
+
+.card-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+h1{
+    font-weight: bolder;
+    color: black !important;
+    
+
+}
+
+/* General */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 3px solid #ffb1f9;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #ffb1f9 !important;
+}
+.nav-link.active {
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link.active:hover {
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    color: #ffb1f9
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    
+}
+
+.nav-link:hover {
+    color: #ffb1f9 
+}

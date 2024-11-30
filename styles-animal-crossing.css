@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@700&display=swap');
+
+/* Estilo general */
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    background-color: #def2c8;
+    /* Verde claro */
+    color: #3d6b3b;
+    /* Verde oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Comic Neue', sans-serif;
+    /* Fuentes similares a Animal Crossing */
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+/* Cabecera */
+header {
+    background-color: #78c850;
+    /* Verde brillante */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navegación */
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #b3e59f;
+    /* Verde suave */
+    margin: 0;
+    padding: 10px;
+}
+
+.div-playa-arena {
+    background-color: #f8de8a;
+    /* Fondo claro */
+    background: linear-gradient(900deg, #e9cc6d, #f8de8a);
+    padding: 60px;
+    height: 1200px;
+
+}
+
+.div-playa-agua {
+    background-color: rgb(136, 255, 255);
+    padding: 200px;
+    height: 2200px;
+    background: linear-gradient(900deg, #b7f2f7, #0267a1d2, #013e61d2);
+    
+
+}
+
+.div-bosque {
+    background-color: #3d6b3b;
+    background: linear-gradient(900deg, #3d6b3b, #000000d2);
+    padding: 60px;
+    height: 1400px;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #3d6b3b;
+    /* Verde oscuro */
+    font-size: 1.4rem;
+    font-family: 'Bangers', 'Comic Neue', sans-serif;
+    /* Fuentes similares a Animal Crossing */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #eeff00;
+    /* Amarillo brillante */
+}
+
+/* Enlace especial */
+.nav-link-animal-crossing {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #ff884b;
+    /* Naranja inspirado en frutas */
+}
+
+.nav-link-animal-crossing:hover {
+    color: #ffcc00;
+    /* Amarillo brillante */
+}
+
+/* Secciones */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+
+/* Pie de página */
+footer {
+    background-color: #78c850;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#inicio {
+    display: flex;
+    justify-content: center;
+
+}
+
+#personajes {
+    display: flex;
+    justify-content: center;
+}
+
+#islas {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo de carteles de madera para los h2 */
+h3 {
+    font-family: 'Bangers', 'Comic Neue', sans-serif;
+    /* Fuentes con estilo divertido */
+    font-size: 30px;
+    text-align: center;
+    background-color: #8b4513;
+    /* Marrón madera */
+    color: #fff8dc;
+    /* Color claro para el texto */
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    /* Ajusta el ancho del cartel */
+    border: 4px solid #6a3c0b;
+    /* Borde más oscuro */
+    border-radius: 8px;
+    /* Bordes redondeados para suavizar */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    /* Sombra para dar efecto 3D */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Sombra en el texto */
+    position: relative;
+}
+
+/* Estilo adicional para simular clavos en los carteles */
+h3::before,
+h2::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #6a3c0b;
+    /* Color marrón oscuro para los clavos */
+    border-radius: 50%;
+    /* Forma circular */
+    top: -6px;
+    /* Mitad del tamaño del clavo, ajustado al borde */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+    /* Sombra para dar realismo */
+}
+
+h3::before {
+    left: 10px;
+    /* Clavo en la esquina izquierda */
+}
+
+h3::after {
+    right: 10px;
+    /* Clavo en la esquina derecha */
+}
+
+.div-camino {
+    background: linear-gradient(to bottom, #deb887, #d2a679);
+    /* Tonos marrones de madera */
+    background-size: 100% 50px;
+    /* Simula tablas de madera */
+    height: 3000px;
+    /* Ajusta la altura para que parezca un sendero */
+    width: 60%;
+    /* Anchura del camino, ajusta según necesites */
+    margin: 0 auto;
+    /* Centra el div en la página */
+    border: 2px solid #8b4513;
+    /* Borde oscuro para simular el contorno del camino */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    /* Sombra para dar profundidad */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Opcional: Simular separación entre tablas */
+.div-camino::before {
+    content: '';
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(to bottom,
+            #8b4513 0,
+            #8b4513 2px,
+            #deb887 2px,
+            #deb887 50px);
+
+}
+
+.nav-link.disabled{
+    pointer-events: none;
+    color: gray;
+    cursor: default;
+}

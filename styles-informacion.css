@@ -1,0 +1,62 @@
+/* Estilo global */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.navbar {
+    border-bottom: 3px solid #ffb1f9;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #ffb1f9 !important;
+}
+
+.nav-link.active {
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link.active:hover {
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    color: #ffb1f9
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out;
+    color:white;
+}
+
+.nav-link:hover {
+    color: #ffb1f9;
+}
+
+/* Contenido principal */
+.container h1 {
+    font-size: 2.5rem;
+    color: #ff6f61;
+}
+
+.container p.lead {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: auto;
+    /* Se asegura de que el footer esté empujado al final */
+}
+
+footer p:hover {
+    color: #ffcc00;
+    transition: color 0.3s ease-in-out;
+}

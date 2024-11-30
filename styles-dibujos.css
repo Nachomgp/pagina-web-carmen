@@ -1,0 +1,59 @@
+.carousel-container {
+    width: 40%; /* 30% del ancho de la pantalla */
+    margin: auto; /* Centra el carrusel */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor sin deformarse */
+}
+
+footer {
+    background-color: #343a40;
+    font-size: 0.9rem;
+    color: #aaa;
+    
+}
+
+footer p:hover {
+    color: #ffcc00;
+    transition: color 0.3s ease;
+}
+
+/* General */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 3px solid #ffb1f9;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #ffb1f9 !important;
+}
+.nav-link.active {
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link.active:hover {
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    color: #ffb1f9
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    
+}
+
+.nav-link:hover {
+    color: #ffb1f9 
+}
